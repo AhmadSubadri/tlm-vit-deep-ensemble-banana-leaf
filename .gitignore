@@ -1,10 +1,14 @@
-# Ignore Word documents, PDFs, and presentation files
+# Ignore Word documents, presentation files, and stray PDFs
 *.docx
 *.doc
-*.pdf
 *.pptx
 *.ppt
+*.pdf
 ~$*
+
+# Explicitly allow the official IEEE Access reference papers in reference_papers/
+!reference_papers/
+!reference_papers/*.pdf
 
 # Ignore large dataset archives, weights, and cached arrays
 *.zip
@@ -20,4 +24,3 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
-
