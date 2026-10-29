@@ -1,0 +1,23 @@
+# Ignore Word documents, PDFs, and presentation files
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.ppt
+~$*
+
+# Ignore large dataset archives, weights, and cached arrays
+*.zip
+*.tar.gz
+*.pkl
+*.npy
+*.h5
+*.weights.h5
+
+# Python & Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
